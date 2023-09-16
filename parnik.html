@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Расходники</title>
+	<style>
+	    button {
+		    background-color: #4CAF50;
+		    border: none;
+		    color: white;
+		    padding: 8px 20px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 4px 2px;
+		    cursor: pointer;
+		    border-radius: 10px;
+		    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		    }
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-items: center;
+			margin: 50px auto;
+			max-width: 800px;
+		}
+		.box {
+			width: 300px;
+			height: 300px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			margin: 20px;
+			text-align: center;
+			padding: 20px;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+		}
+		
+		.box img {
+			max-width: 55%;
+			max-height: 55%;
+			object-fit: cover;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<img src="geekvape.jpg" alt="Фото 1">
+			<h3>GeekVape</h3>
+			<p>В-0.4 Ом, В-0.2 Ом</p>
+			<button onclick="window.location.href='расходники.html'">В корзину</button>
+		</div>
+		<div class="box">
+			<img src="pasito.jpg" alt="Фото 2">
+			<h3>Smoant Pasito 2/Knight 80</h3>
+			<p>0.3 Ом</p>
+			<button onclick="window.location.href='одноразки.html'">В корзину</button>
+		</div>
+		<div class="box">
+			<img src="charon.jpg" alt="Фото 3">
+			<h3>Charon Baby</h3>
+			<p>0.6 Ом</p>
+			<button onclick="window.location.href='одноразки.html'">В корзину</button>
+		</div>
+		<div class="box">
+			<img src="charonplus.png" alt="Фото 4">
+			<h3>Santi/Charon Baby+</h3>
+			<p>0.35 Ом</p>
+			<button onclick="window.location.href='одноразки.html'">В корзину</button>
+		</div>
+		<div class="box">
+			<img src="xros.jpg" alt="Фото 5">
+			<h3>Xros</h3>
+			<p>0.7 Ом, 0.8 Ом</p>
+			<button onclick="window.location.href='расходники.html'">В корзину</button>
+		</div>
+		<div class="box">
+			<img src="aegis.jpg" alt="Фото 6">
+			<h3>Aegis Nano</h3>
+			<p>0.6 Ом</p>
+			<button onclick="window.location.href='одноразки.html'">В корзину</button>
+		</div>
+	</div>
+</body>
+</html>
